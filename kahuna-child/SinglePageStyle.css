@@ -1,0 +1,1099 @@
+	/*
+Theme Name: SinglePageStyle
+Template: kahuna
+*/
+
+@font-face { 
+
+	font-family: Gabriola; 
+	src: url('Gabriola.ttf'); 
+
+}
+
+
+
+/*Header Image at top of page */
+.pageHeaderImage {
+	width: 100%;
+	height: 30vw;
+	display: block;
+	clear: both;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+	
+}
+
+
+#header-page-title {
+	position: relative !important;
+	max-width: 100% !important;
+	margin-top: 100px;
+	
+	padding-left: 5% important;
+}
+
+/*container for single page title */
+#header-page-title-inside {
+	display: inline-block;
+	font-size: 2.5vw;
+	background-color: rgba(0,0,0,0) !important; 
+	text-shadow: 2px 2px black;
+	
+}
+
+/*Title for single page */
+#header-page-title .entry-title {
+	max-width: 100%;
+	
+}
+
+
+#header-image-main {
+
+	height: 28vw;
+	margin-top: 0 !important;
+	
+	
+}
+
+
+#header-image-main-inside {
+	/*height: auto !important;*/
+	
+	height: 100% !important;
+	
+	
+}
+
+
+#site-wrapper {
+	background-color: white !important;
+}
+
+/*Left side, contains text */
+
+ .archive  #container {
+
+	float: left !important;
+	width: 70% !important;
+	margin-left: 0 !important;
+
+	
+	
+}
+
+
+ .page-parent  #container {
+
+	float: left !important;
+	width: 70% !important;
+	margin-left: 0 !important;
+
+	
+
+}
+
+
+
+
+/*Left side, contains text */
+
+ .page-child #container{
+	 float: left !important;
+	width: 70% !important;
+	margin-left: 0 !important;
+	
+	
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ /*Left side contains text for Leadership page */
+.page-id-630 #container{
+	 float: none !important;
+	width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	 
+	 
+ }
+ 
+ 
+ 
+ 
+ .page-id-630 #container.two-columns-right {
+	 margin-right: 0 !important;
+	 max-width: 100% !important;
+ }
+ 
+
+ 
+
+
+.page-parent footer {
+	color: white !important;
+}
+
+
+.page-child main {
+	padding-bottom: 0 !important;
+}
+
+/*Content for single page text */
+.entry-content {
+	font-family: Gabriola;
+	font-size: 1.7vw;
+}
+
+
+
+/*Right side, surrounds widget area */
+#rightBox {
+	width: 30%;
+	float: right;
+	height: 100%;
+
+	background-color: white;
+
+}
+
+
+article {
+	margin-bottom: 0 !important;
+}
+
+
+#colophon {
+	display: none !important;
+}
+
+
+.page-parent, .archive, .page-child main {
+	display: inline-block;
+	
+	width: 100% !important;
+
+	
+}
+
+
+.pageLink {
+	color: #00919E !important;
+	
+}
+
+
+
+.single main {
+		display: inline-block;	
+	width: 100% !important;
+
+	margin-bottom: 0 !important;
+	
+}
+
+
+ .page-parent .header-image {
+	display: none !important;
+}
+
+
+
+ .page-child .header-image {
+	display: none !important;
+}
+
+.archive .header-image {
+	display: none !important;
+	
+	}
+
+
+.single .header-image {
+	display: none !important;
+}
+
+/*Takes away right side of single post */
+.single #secondary {
+	display: none !important;
+}
+
+
+#header-page-title-inside {
+	padding: 0 !important;
+}
+
+
+/*Contains all sidebar things */
+#sidebarContainer {
+	
+   height: auto;
+   width: 70%;
+   list-style: none;
+  margin: 0 auto;
+   margin-top: 40px;
+}
+
+#sidebarContainer a:hover{
+	color: #FFF100 !important;
+	
+}
+
+
+/*Little page breadcrumb */
+#breadcrumbs-nav {
+	display: none !important;
+}
+
+/*Red support matters box */
+.pageSupportMatters {
+	/*width: 100%; */
+	
+	background-color: #FF4136;
+	color: white;
+	text-align: center;
+	
+	background-color: #940A0E;
+	border-radius: 10px;
+font-family: Gabriola;
+font-size: 2.3vw;
+	line-height: 50px;
+ 	
+	
+}
+
+.pageSupportMatters:hover {
+	color: #FFF001;
+}
+
+
+
+
+.widget_recent_entries {
+	margin-top: 20px;
+}
+
+/*Latest News Title */
+.widget_recent_entries .widgettitle {
+	font-size: 35px;
+	font-family: Gabriola;
+}
+
+/*Title for post entry on sidebar */
+.widget_recent_entries li a {
+	display: block;
+	color:  #31909F;
+	font-size: 1.75vw !important;
+	font-family: Gabriola;
+	line-height: 1.2;
+	
+	
+}
+
+/*Date for post entry */
+.post-date {
+	font-family: Gabriola;
+	font-size: 20px;
+}
+
+
+/*Contains custom post types for Leadership Page */
+#leadershipContainer {
+	height: auto;
+	width: 90%;
+	list-style: none;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+
+/*Actual container for individual leadershipt custom post */
+.leadership {
+	
+	width: 24.5%;
+	display: inline-block !important;
+	vertical-align: top;
+	margin-right: 0;
+}
+
+
+.leadership .published {
+	display: none;
+}
+
+
+.leadership .author {
+	display: none;
+}
+
+
+/*Text within leadership custom post Preview */
+#leadershipContainer .entry-summary {
+	font-family: Gabriola;
+	font-size: 1.6vw;
+	line-height: 1.25;
+	
+	width: 80%;
+}
+
+
+.leadership-template-default #sidebarContainer {
+	
+	
+}
+
+
+
+.leadership-template-default article{
+	
+	width: 100%;
+
+}
+
+
+/*Individual leader page, picture and name */
+.leadership-template-default .article-inner  header {
+	
+	margin: 0 auto;
+	width: 40%;
+	vertical-align: top;
+}
+
+.leadership-template-default .entry-content {
+	
+	width: 100% !important;
+}
+
+
+/*Main page wrapper for Leadership page */
+.page-id-630 #main {
+	
+	width: 100% !important;
+	padding: 0 !important;
+}
+
+
+/*Outer container for board members text at bottom of Leadership page */
+.BoardContainer {
+	width: 90%;
+	height: auto;
+
+	margin: 0 auto;
+}
+
+/*single column of board members */
+.BoardColumn {
+	display: inline-block;
+	
+	width: 33%;
+	vertical-align: top;
+	
+}
+
+.BoardMember {
+
+	margin-bottom: 10px;
+	line-height: 1.25;
+}
+
+/*Leadership name of leader */
+.leadership .entry-title a:hover {
+	color: #00919E !important;
+}
+
+
+/*Read more link in leadership */
+.entry-summary a{
+		color: #00919E !important;
+	}
+	
+/*Read more link in leadership */
+.entry-summary a:hover{
+		color:  #FFF100 !important;
+	}	
+
+/*Title of Leader */	
+.leadership footer {
+		
+		 font-style: italic;
+	}
+
+	
+	
+/*Styles for Careers Page */
+
+/*Career Button */
+#CareersButton {
+	height: auto;
+	width: 400px;
+	background-color: #00919E;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}	
+	
+#CareersButton:hover {
+	color: #FEF002;
+}
+
+
+/*Styles for Resource Center page */
+.fa-file-powerpoint-o {
+	display: inline-block;
+	color: black;
+}
+
+
+
+.FormLink {
+	display: block;
+
+	margin: 0 auto;
+	width: 80%;
+	
+}
+
+
+.NCCForms {
+	text-align: center;
+	font-size: 2.5vw;
+	margin-bottom: 0 !important;
+}
+
+
+/*Contains the resource forms */
+#resourcesContainer {
+	width: 60%;
+
+	height: auto;
+	margin: 0 auto;
+	
+}
+
+#resourcesContainer p{
+	margin-bottom: 0 !important;
+	
+}
+
+/*Right Aligned Image within text on page */
+.ImageRight {
+	float: right;
+
+}
+
+/*Font next to little briefcases */
+.InBriefcase{
+	font-family: Gabriola;
+}
+
+
+/*Contains entire form on Contact Page */
+#FSContact1 {
+
+	margin: 0 auto;
+	width: 60% !important;
+	text-align: center !important;
+}
+
+
+#EmailUs {
+	font-size: 2.7vw !important;
+	text-align: center;
+	margin-bottom: 0 !important;
+}
+
+
+/*Outer container for input fields */
+#FSContact1 div{
+		margin: 0 auto !important;
+	display: block !important;
+	float: none !important;	
+
+}
+
+
+
+/*Contains individual input fields on contact page */
+#FSContact1 input, textarea {
+	border: solid #FEF001;
+	height: 10px;
+	max-width: 90% !important;
+	display: block !important;
+	margin: 0 auto !important;
+	
+}
+
+/*Area where you can write in your message */
+#FSContact1 textarea {
+	
+	max-width: 90% !important;
+	display: block !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
+	height: 175px !important;
+	
+}
+
+/*Submit Button */
+#fscf_submit1 {
+	background-color: #00919E;
+	height: 60px !important;
+	border: none !important;
+	
+	 border: none;
+ 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   margin-top: 20px !important;
+    font-size: 20px;
+	
+} 
+
+#fscf_submit1:hover {
+	color: #FEF001;
+	
+}
+
+
+.page-id-637 main {
+	padding: 0 !important
+}
+
+
+
+/*Contains listing of locations and addresses */
+#LocationsContainer {
+
+	width: 100% !important;
+
+	margin-top: 25px !important;
+	
+	line-height: 1.25;
+	font-size: 2vw;
+	margin: 0 auto;
+}
+
+/*Contains listing of locations and addresses */
+.locationsParagraph {
+  
+  display: inline-block;
+  width: 28%;
+  margin-left: 4%;
+  vertical-align: top;
+
+
+}
+
+
+/*Locations Heading */
+#LocationsContainer h3{
+	font-size: 2.5vw;
+	text-align: center;
+	
+}
+
+
+#LocationsContainer a{
+	color: #00919E !important;
+	
+}
+
+/*Little thumbnail pictures on individual pages */
+.alignleft, .alignright{
+	
+	width: 23vw !important;
+}
+
+/*Leadership entry image */
+.leadership .entry-image img {
+	width: 12vw;
+	
+}
+
+
+.ChildhoodColumn {
+	width: 33%;
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+
+.pageLink:hover {
+	color: #FEF200 !important;
+}
+
+
+#fscf_captcha_code1 {
+	
+	width: 20% !important;
+} 
+
+
+.PowerpointText {
+	color: #00919E;
+	font-size: 1.7vw;
+}
+
+.PowerpointText:hover {
+	color:#FFF100;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+	
+	/*Contains all sidebar things */
+
+	#sidebarContainer { 
+	   height: 300px;
+	   width: 90%;
+	   list-style: none;
+	  
+	   margin-top: 40px;
+	  
+	}
+		
+
+	/*Red support matters box */
+	.pageSupportMatters {
+		
+		width: 70%;
+		
+		margin: 0 auto;
+	}
+	
+	.widget_recent_entries .widgettitle {
+	font-size: 23px;
+}
+
+
+	/*Text within leadership custom post Preview */
+	#leadershipContainer .entry-summary {
+		font-family: Gabriola;
+		font-size: 20px;
+		line-height: 1.25;
+}
+
+
+/*Content for single page text */
+.entry-content {
+	
+	font-size: 19px;
+}
+
+
+
+.ChildhoodColumn {
+	width: 100%;
+	display: block;
+	
+
+}	
+
+/*Locations Heading */
+#LocationsContainer h3{
+	font-size: 25px
+	
+}
+
+
+#EmailUs {
+	font-size: 25px !important;
+
+}
+
+
+.NCCForms {
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#header-page-title {
+	
+	margin-top: 60px;
+}
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 950px) {
+
+/*Header Image at top of page */
+.pageHeaderImage {
+		
+	height: 250px;
+	
+}
+
+#header-image-main {
+	height: 250px !important;
+}
+
+
+
+/*container for single page title */
+#header-page-title-inside {
+	display: inline-block;
+	font-size: 20px;
+
+	
+}
+
+
+
+/*Red support matters box */
+.pageSupportMatters {
+	font-size: 21px;
+	width: 70%;
+	line-height: 37px;
+	
+}
+
+
+
+
+/*Latest News Title */
+.widget_recent_entries .widgettitle {
+	font-size: 32px;
+	font-family: Gabriola;
+}
+
+/*Title for post entry on sidebar */
+.widget_recent_entries li a {
+	display: block;
+	color:  #31909F !important;
+	font-size: 1.3sem !important;
+	font-family: Gabriola;
+		font-size: 19px !important;
+	
+}
+
+/*Date for post entry */
+.post-date {
+	font-family: Gabriola;
+	font-size: 18px;
+}
+
+
+/*Contains listing of locations and addresses */
+#LocationsContainer {
+	
+	width: 100% !important;
+	margin: 0 auto !important;
+	
+	line-height: 1.25;
+	
+}
+
+.locationsParagraph {
+	font-size: 20px;
+	 width: 30%;
+  margin-left: 2%;
+ 
+}
+
+#resourcesContainer {
+	width: 80%;
+}
+
+.PowerpointText {
+
+	font-size: 19px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 780px) {
+	
+	/*Actual container for individual leadership custom post */
+	.leadership {	
+		width: 90%;
+		display: block !important;
+		vertical-align: top;
+		margin: 0 auto;
+		
+	}
+	
+	/*container for leadership image */
+	.leadership .entry-image {
+			width: 30%;
+			margin: 0 auto;
+			margin-top: 30px !important;
+			
+	}
+	
+	
+	.leadership .entry-image img {
+		width: 100%;
+		
+		
+	}
+	
+	/*Text within leadership custom post Preview */
+	#leadershipContainer .entry-summary {
+		
+		width: 100%;
+	}
+	
+		
+	/*Outer container for board members text at bottom of Leadership page */
+	.BoardContainer {
+
+		height: auto;
+		
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	/*single column of board members */
+	.BoardColumn {
+		display: inline-block;
+		width: 49%;
+	
+		
+	}
+
+	/*Career Button */
+	#CareersButton {
+		width: 100%;
+		font-size: 20px;
+	}
+	
+	
+	
+	/*Contains entire form on Contact Page */
+	#FSContact1 {
+		display: block !important;
+		width: 90% !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+	
+	
+	
+	/*Little thumbnail pictures on individual pages */
+.alignleft, .alignright {
+
+	width: 60%!important;
+	display: block !important;
+	float: none !important;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+	
+}
+
+	
+.pageSupportMatters {
+	width: 90%;
+}	
+
+
+
+	
+	
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.leadership-template-default article{
+		margin-top: 50px;
+		
+	}
+	
+	.locationsParagraph {
+		font-size: 20px;
+		margin: 0 auto;
+		display: block;
+		width: 200px;
+		margin-bottom: 20px;
+}
+	
+	
+	
+	
+	
+	
+
+
+}	
+	
+
+@media only screen and (max-width: 520px) {
+/*Left side, contains text */	
+.page-parent,  .archive, .page-child #container{
+	clear: both;
+	float: none;
+	width: 100% !important;
+	
+}
+
+
+/*Left side, contains text */
+/*	
+.page-child #container{
+	clear: both;
+	float: none;
+	width: 100% !important;
+	
+}
+*/
+
+
+/*Right side, surrounds widget area */
+#rightBox {
+	width: 100%;
+	float: none;
+	height: auto;
+	
+	
+	clear: both;
+}
+
+
+/*Contains all sidebar things */
+#sidebarContainer {
+
+   height: auto;
+   width: 70%;
+   list-style: none;
+  margin: 0 auto !important;
+   margin-top: 40px;
+ 
+
+}
+
+
+
+/*Red support matters box */
+.pageSupportMatters {
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+/*Latest News Title */
+.widget_recent_entries .widgettitle {
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+/*container for leadership image */
+.leadership .entry-image {
+			
+			width: 125px;
+			margin: 0 auto;
+			
+	}
+	
+	
+.leadership .entry-title {
+	font-size: 20px;
+}
+
+
+
+
+	/*single column of board members */
+	.BoardColumn {
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		
+	}	
+	
+	
+	/*Career Button */
+	#CareersButton {
+		height: auto;
+		font-size: 18px;
+	}
+	
+	
+
+	
+	
+
+	
+	
+}
+
+
+@media only screen and (max-width: 400px) {
+	
+	
+nav#mobile-menu a span {
+	color: black !important;
+	line-height: 1 !important;
+	
+	font-size: 16px !important;
+	
+}
+	
+	/*Little thumbnail pictures on individual pages */
+	.alignleft, .alignright {	
+			width: 90% !important;
+			margin-top: 20px !important;
+	
+		
+	}
+	
+	/*Red support matters box */
+.pageSupportMatters {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+/*Individual leader page, picture and name */
+	.leadership-template-default .article-inner  header img{
+		height: 130px;
+		width: 100%;
+	
+	}
+	
+.leadership-template-default .article-inner  header {
+			width: 150px;
+			height: auto;
+					
+		}
+		
+		
+.leadership-template-default .entry-content {
+		
+	margin-top: 50px !important;
+			
+	}
+	
+	
+
+	
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+
+
+}

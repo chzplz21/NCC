@@ -1,0 +1,386 @@
+/*
+Theme Name: DonateNowStyle
+Template: kahuna
+*/
+
+
+.page-id-1723 .entry-content {
+	width: 100%;
+	
+	margin-top: 50px !important;
+}
+
+
+.page-id-1723 .main {
+	width: 100% !important;
+	padding: 0 !important;
+}
+
+/*text blurb */
+.DonateText {
+	
+
+	width: 50%;
+	display: inline-block;
+	line-height: 1.2;
+	margin-left: 10%;
+	height: auto !important;
+}
+
+/*pic next to text blurb */
+.DonateLittlePic {
+	width: 30%;
+	vertical-align: top;
+	margin-right: 0;
+	margin-left: 5%;
+	
+	display: inline-block;
+}
+
+/*What can heading on sidebar */
+#WhatCan {
+	font-weight: bold;
+	font-family: Gabriola !important;
+	font-size: 2.5vw;
+	line-height: 1.5;
+}
+
+/*Style for sidebar text */
+.DollarText {
+	font-family: Gabriola !important;
+	font-size: 1.5vw;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/*Buttons inside description */
+.DonatePageButton {
+	width: 30%;
+	line-height: 1.7;
+	height: 40px;
+	margin-top: 0 !important;
+	border-radius: 10px;
+	background-color: #00919E;
+	color: white;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.DonatePageButton:hover {
+	color: #FDF00C;
+	cursor: pointer;
+	
+}
+
+
+/*Button for "Schedule Pickup" */
+#SchedulePickup {
+	width: 40%;
+}
+
+/*Button just for fun drive */
+#FunDrive {
+	width: 50%;
+}
+
+
+
+
+
+
+
+/*Stylings for Donate form */
+
+
+#wp_payeezy_payment_form {
+
+	
+	margin: 0 auto !important;
+}
+
+
+/*Input fields */
+#wp_payeezy_payment_form input[type="text"]{
+	
+	border: solid #FFF100;
+	
+	display: block !important;
+	width: 100% !important;
+	height: 42px;
+	padding: 0px 10px;
+}
+
+#wp_payeezy_payment_form select {
+	border: solid #FFF100;
+	height: 2vw !important;
+	padding: 5% !important;
+}
+
+
+
+#wp_payeezy_payment_form #x_email {
+		border: solid #FFF100;
+	height: 2vw !important;
+	padding: 5% !important;
+	width: 100% !important;
+	
+}
+
+#wp_payeezy_payment_form p{
+	
+	display: block !important;
+	width: 50% !important;
+	margin: 0 auto !important;
+	
+}
+
+
+#wp_payeezy_payment_form input[type="radio"]{
+	
+	transform: scale(1.25);
+	
+}
+
+
+
+
+#wp_payeezy_payment_form #submit {
+	background-color: #00919E !important;
+	border: none !important;
+	margin: 0 auto !important;
+	display: block !important;
+}
+
+
+#wp_payeezy_payment_form #submit:hover {
+	color: #FFF100;
+	cursor: pointer;
+	
+}
+
+
+
+.page-id-1723, .page-id-2970 #container {
+
+
+	
+}
+
+
+.page-id-1723, .page-id-2970 main {
+
+	
+}
+
+
+@media only screen and (max-width: 1100px) {
+	
+/*What can heading on sidebar */
+#WhatCan {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+	
+/*Style for sidebar text */
+.DollarText {
+	font-size: 19px;
+
+}
+
+
+
+
+/*Buttons inside description */
+.DonatePageButton {
+	line-height: 2;
+		
+}
+	
+	
+	
+	
+		
+}
+
+
+
+@media only screen and (max-width: 950px) {
+	
+ .page-id-2970 #container {
+	clear: both;
+	float: none;
+	width: 100% !important;
+	
+
+	
+}
+
+
+
+.page-id-2970 #rightBox {
+	width: 100%;
+	float: none;
+	height: auto;
+	clear: both;
+	margin-top: 30px;
+	
+}
+
+
+
+.page-id-1723 #rightBox {
+	width: 100%;
+	float: none;
+	height: auto;
+	clear: both;
+	margin-top: 30px;
+	
+	
+	
+	
+}
+
+
+.page-id-1723 #container {
+	clear: both;
+	float: none;
+	width: 100% !important;
+
+
+	
+}
+
+
+
+.page-id-1723 #sidebarContainer {
+	margin: 0 auto;
+	
+	text-align: center;
+	width: 60%;
+	height: auto !important;
+}
+
+
+.page-id-2970 #sidebarContainer {
+	margin: 0 auto;
+	
+	text-align: center;
+	width: 60%;
+	height: auto !important;
+}
+
+
+/*Style for sidebar text */
+.DollarText {
+	margin-bottom: 30px;
+}
+	
+	
+	
+/*Buttons inside description */
+.DonatePageButton {
+	width: 100px;
+	line-height: 2.1;
+
+}	
+
+
+/*Button for "Schedule Pickup" */
+#SchedulePickup {
+	width: 150px;
+}
+
+
+/*Button just for fun drive */
+#FunDrive {
+	width: 200px;
+}
+
+	
+}
+
+@media only screen and (max-width: 700px) {
+/*text blurb */
+.DonateText {
+	
+	width: 80%;
+	display: block;
+	line-height: 1.2;
+	margin: 0 auto;
+
+}
+	
+/*pic next to text blurb */
+.DonateLittlePic {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+	
+}
+
+.DonateLittlePic img {
+	width: 100% !important;
+}
+	
+	
+}
+
+
+@media only screen and (max-width: 550px) {
+	
+	
+	#addressTable {
+		margin: 0 auto !important;
+		
+	}
+	
+	#addressTable td{
+		width: 100%;
+		height: auto !important;
+		margin-bottom: 10px;
+		display: block !important;
+		padding: 0 !important; 
+		
+	}
+	
+	
+	.page-id-1723, .page-id-2970 #sidebarContainer {
+		
+		width: 80%;
+		height: auto !important;
+}
+
+
+
+
+#wp_payeezy_payment_form p{
+	
+	display: block !important;
+	width: 250px !important;
+	margin: 0 auto !important;
+}	
+		
+	
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	
+	
+/*pic next to text blurb */
+.DonateLittlePic {
+	width: 80%;
+
+	
+}	
+	
+	
+	
+}

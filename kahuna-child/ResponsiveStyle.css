@@ -1,0 +1,1076 @@
+/*
+Theme Name: ResponsiveStyle
+Template: kahuna
+*/
+
+
+@media only screen and (max-width: 1300px) {
+	
+	
+	/*big teal box */
+#partnersContainer {
+	/*
+	width: 100%;
+	height: 300px;
+	border: solid green;
+	*/
+	
+}
+	
+	
+	#Partners {
+		
+	
+	}
+	
+/*contains each partner logo */
+/*
+	#partnersInnerContainer {
+		width: 70%;
+		height: auto;
+	
+	}
+	*/
+	
+	#Meltzer {
+	
+		width: 140px;
+		height: 40px;
+		margin-top: 60px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 20px;
+		
+	}
+
+
+
+	#StrongStart {
+		
+		width: 120px;
+		height: 100px;
+		margin-top: 30px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 20px;
+	}
+
+
+	#OSSE {
+		width: 130px;
+		height: 70%;
+		display: inline-block;
+		vertical-align: top;
+
+		margin-right: 20px;
+	}
+
+	#Bainum {
+		display: inline-block;
+		vertical-align: top;
+		
+		height: 140px;
+		width: 140px;
+		-moz-border-radius: 70px;
+		-webkit-border-radius: 70px;
+		border-radius: 70px;
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+
+
+	#WholeFoods {
+		display: inline-block;
+		vertical-align: top;	
+		height: 130px;
+		width: 130px;
+		margin-top: 10px;
+	}
+		
+	
+}
+
+
+@media only screen and (max-width: 1230px) {
+	
+	#access {
+		
+	width: 800px !important;
+
+}
+	
+	
+	/*Top navbar*/
+	#masthead #site-header-main {
+		font-size: 20px;
+	}
+	
+	/*Space between each menu item */
+	#access .menu-item {
+	
+	/*margin-right: 4.5%;*/
+	margin-right: 2%;
+}
+
+
+	#access > div > ul li > a:not(:only-child) > span::after {
+		display: none !important;
+		
+	}
+
+	
+	/*Circular Logo */
+	#CircularLogo {
+		
+		width: 160px;
+		height: 160px;
+		
+		-moz-border-radius: 75px;
+		-webkit-border-radius: 75px;
+		border-radius: 75px;
+	
+	}
+	
+
+
+	
+
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+	/*big teal box */
+#partnersContainer {
+
+	height: auto;
+}
+
+#Partners {
+	margin-bottom: 0;
+}
+	
+#partnersInnerContainer {
+		text-align: center !important;
+		height: auto;
+	
+
+	}
+
+.Sponsor {
+	width: 100px;
+	margin-left: 0;
+	margin: 2%;
+}
+
+#lastSponsor {
+	margin-right: 2%;
+}
+	
+
+	 /*news article summary */
+ .rpwe-summary {
+	 font-size: 19px !important;
+	 line-height: 1.2;
+	
+	width: 60% !important;
+
+ }
+ 
+ .rpwe-block h3{
+	
+	 width: 40% !important;
+	 
+ }
+ 
+ .rpwe-time {
+	 width: 40% !important;
+ }
+	
+	
+	
+/*Support Matters Text */
+#text-28  {
+	font-size: 20px !important;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+
+/*Container for navbar */
+	#access {
+		display: none !important;
+	}
+	
+
+	/*makes nav toggle display */
+	#nav-toggle {
+		display: block;
+		top: 20px;
+	}
+
+
+	
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	
+	
+	/*makes nav disappear */
+	#prime_nav {
+		display: none;
+	}
+	
+/* "About NCCELC" */	
+#AboutNccelcTitle {
+	font-size: 25px;
+	
+}
+
+/*Who we are, what we do,  why it's critical */
+.textWidgetTitle {
+	font-size: 23px;
+}
+
+
+	
+	/*Text within "About NCCELC" Box */
+.textWidgetParagraph {
+	font-size: 20px;
+}
+
+.staticslider-caption-title {
+	font-size: 27px !important;
+}
+
+.staticslider-caption-text {
+	line-height: 1 !important;
+}
+
+/*Text in top slider */
+.staticslider-caption-text span {
+	font-size: 20px;
+		
+}
+
+/*Both News and Support titles */	
+ .News_Support_Title {
+	 font-size: 23px !important; 
+	 line-height: 30px;
+
+ }
+ 
+ /*Title for news article */
+.rpwe-title a{
+	font-size: 22px !important;
+	 
+ }
+ 
+ 
+ .rpwe-time {
+	 font-size: 17px !important;
+ }
+ 
+ 
+ /*news article summary */
+ .rpwe-summary {
+	 font-size: 19px !important;
+	 line-height: 1.2;
+
+ }
+	
+	
+/*Red box that says your support matters */
+#SupportMattersRed {
+	
+	font-size: 25px;
+		
+}
+
+/*Support Matters Text */
+#text-28  {
+	font-size: 20px !important;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+	
+/*
+#ImageContainer {
+	border: solid green;
+	height: 250px;
+	
+}
+*/
+
+
+
+/*Container for "our story" text */
+.ourStoryContainer {
+	font-size: 21px;
+}
+
+.ourStoryContainer .widgettitle {
+	font-size: 25px;
+}
+
+
+	/*Recent news image */
+	.recent_news_container img {
+
+	}
+
+	.BottomTitle {
+		font-size: 22px !important;
+		
+	}
+	
+	.bottom_menu li a{
+		font-size: 17px !important;
+		
+	}
+	
+	
+	.social_container li a{ 
+		font-size: 17px !important;
+}
+
+	.social_container {
+
+		width: 30%;
+		margin-left: 0;
+	}
+
+
+	#InnerBottomContainer {
+
+		width: 80%;
+		
+		
+		
+	}
+	
+	#bottom_menu_container {
+		
+		margin-right: 5%;
+		
+	}
+	
+	#partnersInnerContainer {
+		text-align: center !important;
+		
+		
+		
+	}
+	
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	
+/*Container for "our story" text */
+.ourStoryContainer {
+	
+	height: auto;
+	width: 600px;
+	font-size: 21px;
+	margin: 0 auto;
+	list-style: none;
+	margin-top: 30px;
+	display: block;
+		
+}
+	
+	
+	
+		
+.videoContainer {
+	
+	width: 600px;
+	display: block;
+	margin-top: 50px !important;
+	margin-top: 100px;
+	vertical-align: middle;
+	list-style: none;
+	margin: 0 auto;
+	
+}
+
+/*Container for Recent News */
+.recent_news_container {
+	
+	width: 600px;
+
+	margin: 0 auto;
+	
+	display: block;
+}
+
+
+ .rpwe-summary {
+
+	width: 300px !important; 
+ }
+
+.about_nccelc_container {
+
+
+	height: auto;
+	margin: 0 auto;
+
+	margin-top: 20px;
+}
+
+/*Outer box around each text widget */
+.about_nccelc_container li{ 
+	display: inline-block;
+	width: 49%;
+	
+	
+
+}
+
+/*Centers last text block widget */
+#text-26{
+	margin: 0 auto;
+
+	display: block;
+		
+}
+
+/*
+#nccLogo {
+	height: 150px;
+	width: 200px;
+	
+	margin-top: 50px;
+}
+
+#GuideStar {
+	height: 75px;
+	width: 110px;
+
+	 
+}
+*/
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+	/*
+	.lp-slider {
+	
+		height: 300px;
+	}
+	*/
+	
+	.lp-staticslider{
+		height: 300px;
+	
+		
+		
+	}
+	
+	.lp-staticslider-image {
+		height: 100%;
+		max-width: 100%;
+		display: block;
+		
+	}
+	
+/*Text in top slider */
+.staticslider-caption-text span {
+	font-size: 17px;
+		
+}
+	
+
+
+
+/*Container for "your Support Matters" */
+.SupportContainer {
+	display: block;
+
+	margin: 0 auto;
+
+	width: 80%;
+	
+	margin-bottom: 50px;
+	
+}
+
+
+/*Red box that says your support matters */
+#SupportMattersRed {
+	width: 50%;
+	margin: 0 auto;
+
+	
+	
+}
+
+	 /*contains each partner logo */
+	 /*
+	#partnersInnerContainer {
+		width: 90%;
+		height: auto;
+		
+	}
+	*/
+
+
+
+	#Meltzer {
+		
+		width: 140px;
+		height: 40px;
+		
+		
+		
+	}
+
+
+
+	#StrongStart {
+		
+		width: 110px;
+		
+		
+	}
+
+
+	#OSSE {
+		width: 120px;
+		height: 70%;
+		display: inline-block;
+		vertical-align: top;
+
+		margin-right: 20px;
+	}
+
+	#Bainum {
+	
+		
+		height: 130px;
+		width: 130px;
+		-moz-border-radius: 65px;
+		-webkit-border-radius: 65px;
+		border-radius: 65px;
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+
+
+	#WholeFoods {
+		display: inline-block;
+		vertical-align: top;	
+		height: 130px;
+		width: 130px;
+		margin-top: 10px;
+	}
+
+	
+	#nccLogo {
+		height: 120px;
+		width: 180px;
+	}
+	
+	#GuideStar {
+		height: 60px;
+		width: 90px;
+	}
+	
+	
+	
+	
+/*news article summary */
+ .rpwe-summary {
+ /*	width: 40% !important; */
+	 
+	 /*
+	 font-size: 19px !important;
+	 line-height: 1.2;
+
+	 display: block !Important;
+	 width: 100% !important;
+	 margin: 0 auto !important;
+*/
+ }
+ 
+ .rpwe-block h3{
+	/*
+	width: 258px !important; 
+	display: block !important;
+	*/
+ }
+
+ 
+ 	
+	/*Recent news image */
+	.recent_news_container img {
+	/*
+	display: block !important;
+
+
+	float: none !important;
+	margin-bottom: 10px;
+	
+	*/
+}
+
+.rpwe-time {
+	/*
+	width: 258px !important;
+	margin: 0 auto !important;
+	display: block !important;
+	*/
+}
+	
+	
+
+	
+	
+}
+
+
+@media only screen and (max-width: 660px) {
+	.ourStoryContainer {
+		width: 450px;
+		font-size: 21px;
+		line-height: 1.2;
+	}
+	
+	.videoContainer {
+		
+		width: 450px;
+		
+		
+	}
+	
+	
+		/*news article summary */
+		
+
+	
+	.recent_news_container {
+		width: 90% !important;
+		
+	}
+	
+	
+	.rpwe-summary {
+		width: 45% !important;
+		
+	}
+
+
+	
+	
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	/*Circular Logo */
+	#CircularLogo {
+		
+		width: 140px;
+		height: 140px;
+		
+		-moz-border-radius: 65px;
+		-webkit-border-radius: 65px;
+		border-radius: 65px;
+		left: 0;
+		right: 0;
+		margin: auto;
+			
+	}
+	
+	
+	/*makes nav toggle display */
+	#nav-toggle {
+		top: 20px;
+		right: 0;
+	}
+	
+	/*
+	.lp-slider {
+		
+		height: 250px;
+	}
+	
+	.lp-staticslider{
+		height: 250px;
+	
+		
+		
+	}
+	
+	.lp-staticslider-image {
+		height: 100%;
+		max-width: 400px;
+		display: block;
+		
+	}
+	*/
+	
+	
+
+	
+	/*Outer container for all "About" text widgets */
+    .about_nccelc_container {
+	
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+	
+	/*Outer box around each text widget */
+	.about_nccelc_container li{ 
+		height: auto;
+		width: 100%;
+		margin-bottom: 20px;
+		
+
+	}
+	/*Outer box around each text widget */
+	   .about_nccelc_container .textwidget{
+		 
+		   height: auto !important
+		   
+	   }
+	
+	
+	
+	
+	
+	
+	/*
+	
+	.social_container {
+	display: block;
+	margin-top: 0px;
+	margin: 0 auto;
+
+	}
+	*/
+	
+
+	
+	
+	.rpwe-block a {
+		display: block !important;
+	}
+	.rpwe-title a{
+		margin: 0 auto;
+		display: block !important;
+	}
+	
+	
+	
+	#InnerBottomContainer {
+		width: 100%;
+	
+	}
+
+	
+	.Sponsor {
+		width: 100px;
+		margin-top: 15px !important;
+		/*
+		margin: 0 auto;
+		display: block;
+		*/
+	}
+	
+	
+	#lastSponsor {
+		margin: 0 auto !important;
+		margin-top: 15px !important;
+	}
+	
+	
+	
+	
+	
+.rpwe-summary {
+	 
+	width: 258px !important; 
+	 font-size: 19px !important;
+	 line-height: 1.2;
+	 display: block !Important;
+	 
+	 margin: 0 auto !important;
+ }
+ 
+ .rpwe-block h3{
+	 margin: 0 auto !important;
+	width: 258px !important;
+	display: block !important;
+	
+ }
+
+ 
+ 	
+	/*Recent news image */
+.recent_news_container img {
+	
+	display: block !important;
+
+	margin: 0 auto !important;
+	float: none !important;
+	margin-bottom: 10px;
+	
+	
+}
+
+
+.rpwe-time {
+	
+	width: 258px !important;
+	margin: 0 auto !important;
+	display: block !important;
+	
+}
+
+	
+	
+
+	
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	
+	.ourStoryContainer {
+		width: 350px;
+		
+	}
+	
+	.videoContainer {
+		
+		width: 350px;
+		
+		
+	}
+	
+	/*Red box that says your support matters */
+	#SupportMattersRed {
+		width: 100%;
+		
+	
+	}
+	
+	
+	/*big teal box */
+#partnersContainer {
+
+	height: auto;
+
+
+
+}
+
+
+
+	
+	
+	#Meltzer {
+		
+		width: 140px;
+		height: 40px;
+		margin-top: 0px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		
+	}
+
+
+
+	#StrongStart {
+		
+		width: 100px;
+		height: 80px;
+		margin-top: 0px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+
+	#OSSE {
+		width: 110px;
+		height: 60%;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 20px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	#Bainum {
+	
+		display: block;
+		height: 120px;
+		width: 120px;
+		-moz-border-radius: 60px;
+		-webkit-border-radius: 60px;
+		border-radius: 60px;
+	
+		margin-bottom: 10px;
+		margin: 0 auto;
+	}
+
+
+	#WholeFoods {
+	
+		height: 120px;
+		width: 120px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+	}
+	
+
+	
+	
+}
+
+@media only screen and (max-width: 450px) {
+	
+	#bottom_menu_container {
+		margin: 0 auto;
+		display: block;
+		width: 80%;
+		margin-top: 40px;
+		height: auto;
+	}
+	
+	#nccGuideContainer {
+		margin: 0 auto;
+		display: block;
+		width: 80%;
+		margin-top: 20px;
+		
+	}
+	
+	#nccLogo {
+		width: 200px;
+		margin: 0 auto;
+		height: 150px;
+	}
+	
+	
+	.social_container {
+	   	margin: 0 auto;
+		display: block;
+		width: 40%;
+		margin-top: 20px;
+		
+	}
+	
+	
+	
+
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 400px) {
+	.ourStoryContainer {
+		margin-top: 30px !important;
+		margin: 0 auto;
+		width: 90%;
+		
+	}
+	
+	.videoContainer {
+		margin: none;
+		width: 100%;
+			
+	}
+	
+	/*
+	.lp-slider {
+		border: solid blue;
+		height: 200px !important;
+	}
+	
+	*/
+
+
+
+	
+}
+
+@media only screen and (max-width: 350px) {
+	.recent_news_container {
+		width: 90%;
+		
+	}
+	
+	
+	
+		
+.rpwe-summary {
+	 
+	width: 100% !important; 
+	 font-size: 19px !important;
+	 line-height: 1.2;
+	 display: block !Important;
+	 
+	 margin: 0 auto !important;
+ }
+ 
+ .rpwe-block h3{
+	 margin: 0 auto !important;
+	width: 100% !important;
+	display: block !important;
+	
+ }
+
+ 
+ 	
+
+
+
+.rpwe-time {
+	
+	width: 100% !important;
+	margin: 0 auto !important;
+	display: block !important;
+	
+}
+	
+	
+
+}
+
+
+
+

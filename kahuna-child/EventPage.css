@@ -1,0 +1,346 @@
+/*
+Theme Name: EventPage
+Template: kahuna
+*/
+
+
+
+.tribe_events-template-default #sidebarContainer{
+		margin-top: 80px;
+	
+		
+	}	
+
+
+
+/*Title of individual event */
+.tribe-events-list-event-title a:hover {
+	color: #FEF101;
+}
+
+/*Date of event */
+.tribe-event-date-start {
+	font-size: 1.2vw !important;
+}
+
+
+/*New edits */
+
+
+.UpcomingEvents {
+	text-align: center;
+	font-size: 3.2vw;
+	margin-top: 0 !important;
+	font-weight: bold;
+}
+
+.page-id-3597 main {
+	height: auto !important; 
+	
+}
+
+
+/*Contains list of events */
+.page-id-3597 .entry-content {
+	
+	width: 80% !important;
+	margin: 0 auto !important;
+	
+}
+
+
+
+
+
+.ecs-event-list {
+	list-style: none;
+
+}
+
+/*Container for event */
+.ecs-event {
+	margin-bottom: 20px !important;
+}
+
+/*title for event */
+.ecs-event h4 {
+	color: #00919E;
+}
+
+/*title for event */
+.ecs-event h4:hover {
+   color: #FEF002;	
+}
+
+/* Excerpt for event */
+.ecs-excerpt {
+	margin-bottom: 0 !important;
+}
+
+/*date of event */
+.tribe-event-date-start {
+	font-size: 1.8vw !important;
+	font-weight: bold;
+}
+
+/*time of event */
+.tribe-event-time {
+	font-size: 1.8vw !important;
+	font-weight: bold;
+}
+
+
+
+/*page of individual event */
+
+
+
+/*Surrounds entire event */
+#tribe-events-content {
+	
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.tribe-events-back a {
+	color: #01909D !important;
+}
+
+.tribe-events-back a:hover {
+	color: #FEF100 !important;
+	
+}
+
+.tribe-events-schedule {
+	margin: 0 !important;
+	line-height: 0 !important;
+}
+
+
+/*buttons down below */
+div[id*=tribe-events-daynum-]>a {
+	background-color: #01909D !important;
+}
+
+
+.tribe-events-single-section-title {
+	font-size: 1.7vw !important;
+	
+}
+
+
+
+
+/*previus event */
+.tribe-events-nav-previous a {
+	color: #01909D !important; 
+	font-size: 1.5vw !important;
+}
+
+.tribe-events-nav-previous a:hover {
+	color: #FEF100 !important;
+}
+
+/*next event */
+.tribe-events-nav-next a {
+	color: #01909D !important; 
+	font-size: 1.5vw !important;
+}
+
+
+.tribe-events-nav-next a:hover {
+	color: #FEF100 !important;	
+}
+
+#tribe-events .tribe-events-button {
+	background: #01909D !important;
+}
+
+
+#tribe-events .tribe-events-button:hover {
+	color: #FEF100 !important;
+}
+	
+
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dd {
+	
+	font-size: 1.5vw !important;
+}
+
+
+.tribe-events-notices {
+	background: #01909D !important;
+	color: white;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+	
+
+	
+	
+.tribe-events-single-section-title {
+	font-size: 19px !important;
+	color: green;
+}
+
+
+
+
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dd {
+	
+	font-size: 20px !important;
+}
+
+
+/*Previous button */
+.tribe-events-nav-previous {
+  background: white !important;	
+}
+
+
+/*Previous button */
+.tribe-events-sub-nav li a {
+	 
+  background: white !important;	
+  
+ 
+  
+}
+
+
+/*previus event */
+.tribe-events-nav-previous a {
+
+	font-size: 15px !important;
+}
+
+
+/*next event */
+.tribe-events-nav-next a {
+		font-size: 15px !important;
+}
+	
+	
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+	
+.UpcomingEvents {
+	
+	font-size: 23px;
+	
+}
+
+/*title for event */
+.ecs-event h4 {
+	font-size: 25px;
+}
+
+
+
+/*date of event */
+.tribe-event-date-start {
+	font-size: 20px !important;
+	
+}
+
+/*time of event */
+.tribe-event-time {
+	font-size: 20px !important;
+	
+}
+	
+	
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	
+	.tribe_events-template-default main {
+			padding-bottom: 0 !important;
+			margin-bottom: 0 !important;
+		
+	}
+		
+	.tribe_events-template-default #rightBox{
+			
+			width: 100%;
+			margin: 0 auto !important;
+			clear: both;
+			display: block;
+			margin-top: 0 !important;
+		}
+	
+	
+	.tribe_events-template-default #sidebarContainer{
+	
+		margin: 0 auto !important;
+		width: 60%;
+		
+	}
+
+		
+}
+
+
+
+
+
+@media only screen and (max-width: 520px) {
+	
+	
+	/*Contains list of events */
+.page-id-3597 .entry-content {
+	
+	width: 100% !important;
+	margin: 0 auto !important;
+	
+}
+
+
+/*title for event */
+.ecs-event h4 {
+	font-size: 22px;
+}
+	
+/*date of event */
+.tribe-event-date-start {
+	font-size: 18px !important;
+	
+}
+
+/*time of event */
+.tribe-event-time {
+	font-size: 18px !important;
+	
+}
+	
+/*Entry Excerpt */
+.ecs-excerpt {
+	margin-top: 5px !important;
+	line-height: 1;
+}
+	
+
+	.tribe_events-template-default #sidebarContainer{
+	
+		margin: 0 auto !important;
+		width: 80%;
+		
+	}
+	
+	
+
+	
+	
+}

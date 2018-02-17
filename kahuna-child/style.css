@@ -1,0 +1,925 @@
+/*
+Theme Name: kahuna-child
+Template: kahuna
+*/
+
+@font-face { 
+
+	font-family: Gabriola; 
+	src: url('Gabriola.ttf'); 
+
+}
+
+html {
+	margin-top: 0 !important;
+}
+
+
+body {
+	font-family: Garbiola !important;
+	margin-top: 0 !important;
+
+}
+
+
+#yoBox {
+	height: 200px;
+	width: 200px;
+	background-color: green;
+}
+
+#masthead {
+	height: 85px;
+	
+}
+
+/*Top navbar*/
+#masthead #site-header-main {
+	position: relative !important;
+	margin-top: 0 !important;
+	height: 110px !important;
+	
+	font-family: Gabriola !important;
+	font-size: 1.6vw;
+	
+}
+
+#site-header-main-inside {
+
+	margin-right: 0 !important;
+	max-width: 100% !important;
+
+}
+
+/*Container for navbar */
+#access {
+	
+	width: 70% !important;
+	right: 1%;
+	position: absolute !important;
+	height: 100px !important;
+	display: block !important;
+	float: none !important;
+	top: 10px;
+	
+	
+}
+
+
+#access div {
+	width: 100% !Important;
+	display: flex !important;
+}
+
+#access > div > ul > li:hover > a {
+	
+}
+
+
+.sub-menu li span a  {
+	/*margin-left: 10px !important;*/
+	
+}
+
+
+
+.menu-item-3550 {
+	/*margin-right: 0 !important;*/
+}
+
+
+
+#sheader-container {
+	
+}
+
+#prime_nav {
+	display: flex !important;
+	width: 100% !Important;
+	
+	height: 100px !important;
+	
+}
+
+/*Space between each menu item */
+#access .menu-item {
+	flex: 1 !important;
+	margin-right: 3%;
+	text-align: center;
+
+}
+#access li.menu-main-search {
+	display: none !important;
+}
+
+#access .menu-item-3752{
+	margin-right: 15px !important;
+}
+
+
+
+
+.menu-search-animated {
+	/*display: none !important;*/
+}
+
+/*links in top navbar */
+#masthead #site-header-main .menu-item a{ 
+	height: auto !important;
+	margin-top: 10px;
+	font-family: Gabriola !important;
+	padding: 0;
+	flex: 1 !Important;
+	
+		
+}
+
+#masthead #site-header-main .menu-item a:hover{
+  color: #00919E;
+  
+}	
+
+/*Make little magnifying glass disappear */
+.icon-search {
+	display: none !important;
+}
+
+/*Circular Logo */
+#CircularLogo {
+	background-image: url("images/AnniversaryLogo.jpg");
+	background-position: center;
+	background-size: 100%;
+	/*
+	width: 190px;
+	height: 190px;
+	
+	-moz-border-radius: 95px;
+	-webkit-border-radius: 95px;
+	border-radius: 90px;
+	*/
+	
+	width: 15vw;
+	height: 15vw;
+	
+	-moz-border-radius: 7vw;
+	-webkit-border-radius: 7vw;
+	
+	border-radius: 7vw;
+	
+	
+	position: absolute;
+	
+	border: solid #FFF001;
+	left: 7%;
+	z-index: 1;
+}
+
+/*Circular Logo */
+#CircularLogo:hover {
+	border: solid #31909F;
+}
+
+/*Circular Logo */
+#CircularLogo:active {
+	border: solid #B22D24;
+}
+
+
+/*
+#ImageContainer {
+	width: 100%;
+	height: 30vw;
+	border: solid blue;
+	background-image: url("images/computer.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+*/
+
+.tp-bgimg {
+	
+
+}
+
+.staticslider-caption-inside {
+	background-clip: none !important;
+}
+
+/*Title over slider */
+.staticslider-caption-title {
+	margin-top: 150px !important;
+	height: auto !important;
+	
+	
+}
+
+/*Takes away default background color */
+.staticslider-caption-title span {
+	background-color: rgba(0,0,0,0) !important;
+	font-family: Poppins;
+}
+
+.staticslider-caption-text {
+	 line-height: 1.5 !important;
+}
+
+.staticslider-caption-text span {
+ background-color: rgba(0,0,0,0) !important;
+	font-family: Poppins;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	 color: white !important;
+	 font-size: 2vw;
+	
+	 
+}
+
+
+
+
+/*Caption text over slider */
+.staticslider-caption-text {
+
+	width: 700px;
+	font-size: 1.7em !important;
+	background: none;
+	
+}
+
+
+.lp-block-content {
+	border: solid black;
+	height: 200px;
+}
+
+
+
+
+/*Container for "our story" text */
+.ourStoryContainer {
+	
+	height: auto;
+	width: 35%;
+	font-size: 2vw;
+	margin-left: 9%;
+	list-style: none;
+	margin-top: 45px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Gabriola !important;
+
+		
+}
+
+
+.ourStoryContainer .textwidget{ 
+	
+	margin-top: 0;
+
+}
+
+/*Title in Our Story */
+.ourStoryContainer .widgettitle{
+	font-size: 2.5vw;
+	font-style: italic;
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	padding-top: 0 !important;
+	
+}
+
+
+.videoContainer {
+	height: auto;
+	width: 40%;
+	display: inline-block;
+	margin-top: 65px;
+	vertical-align: top;
+	list-style: none;
+	margin-left: 7%;
+	font-size: 2vw;
+	font-family: Gabriola !important;
+}
+
+.videoContainer .widgettitle{
+	font-size: 2.5vw;
+	font-style: italic;
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	padding-top: 0 !important;
+	
+}
+
+
+.loader {
+    border: 16px solid yellow; /* Light grey */
+    border-top: 16px solid white; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/*Outer container for all "About" text widgets currently display none */
+.about_nccelc_container {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+	display: none;
+
+}
+
+/*Title which says "ABOUT NCCELC" */
+#AboutNccelcTitle {
+	text-align: center;
+	font-size: 3vw;
+	margin-bottom: 0;
+	font-family: Gabriola !important;
+	margin-top: 0;
+}
+
+
+
+hr.tealLine {
+	width: 30%;	
+	height:3px;
+    background-color: #00919E;
+    border:none;
+	
+}
+
+
+.textwidget {
+	
+	list-style: none;
+}
+
+
+
+
+
+
+
+/*Outer box around each text widget */
+.about_nccelc_container li{ 
+	display: inline-block;
+	
+	width: 33%;
+	
+
+}
+
+
+/*actual text within container */
+.about_nccelc_container .textwidget {
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+
+
+.littleYellowContainer {
+	height: 75px;
+	width: 75px;
+	border: solid #DDDDDD;
+	margin: 0 auto;
+	border-radius: 15px;
+	
+}
+
+.littleYellowBox {
+	background-color: #FFDC00;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: white;
+	font-size: 30px;
+	
+}
+
+
+
+/*Who we are, what we do, why it's critical */
+.textWidgetTitle {
+	text-align: center;
+	font-size: 2.3vw;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-family: Gabriola !important;
+}
+
+/*Text within "About NCCELC" Box */
+.textWidgetParagraph {
+	font-size: 1.7vw;
+	line-height: 1.25;
+	font-family: Gabriola !important;
+
+}
+
+
+/*Container for Recent News */
+.recent_news_container {
+	height: auto;
+	width: 86%;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+	display: block;
+	margin-top: 20px;
+}
+
+/*Recent news picture */
+.recent_news_container img {
+	/*width: 17vw;*/
+	
+	
+}
+
+
+/*Recent news picture */
+.recent_news_container img:hover {
+	border: solid #00919E !important;
+}
+
+/*title in recent news container */
+#NewsTitle {
+	font-size: 2.5vw;
+	font-weight: bold;
+		font-family: Gabriola !important;
+}
+
+hr.BlackLine {
+	width: 100%;	
+	height:3px;
+    background-color: #DDDDDD;
+    border:none;
+	
+}
+
+.rpwe-block h3{
+
+	display: inline-block !important;
+	width: 65% !Important;
+	margin-left: 3% !Important;
+	
+}
+
+/*title for individual article */
+.rpwe-title a{
+	font-size: 2vw !important;
+	color: black;
+	font-family: Gabriola !important;
+	width: 100% !important;
+
+}
+
+
+.rpwe-title a:hover{
+	color: #00919E;
+}
+
+.rpwe-li {
+	font-size: 0 !Important;
+
+}
+
+
+
+/*Date for individual article */
+.rpwe-time {
+	font-size: 1.3vw !important;
+	font-family: Gabriola !important;
+	display: inline-block !Important;
+
+	margin-left: 3% !Important;
+}
+
+/* Summary of article */
+.rpwe-summary {
+	font-size: 1.5vw !important;
+	font-family: Gabriola !important;
+	margin-bottom: 20px;
+
+
+	width: 65% !Important;
+
+	display: inline-block !important;
+	margin-left: 3% !Important;
+}
+
+
+
+
+
+.SupportContainer {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+	height: auto;
+	width: 25%;
+	list-style: none;
+	margin-bottom: 25px;
+	font-family: Gabriola !important;
+	margin-top: 20px;
+
+
+}
+
+
+#SupportTitle {
+	font-size: 2.5vw;
+	font-weight: bold;
+		
+}
+
+/*Red box that says your support matters */
+#SupportMattersRed {
+	width: 100%;
+	height: auto;
+	background-color: #FF4136;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	background-color: #940A0E;
+	border-radius: 10px;
+	
+}
+
+
+#SupportMattersRed:hover {
+	color: #FEF100;
+}
+
+#DonateText {
+	padding: 0;
+}
+
+#text-28  {
+	font-size: 1.7vw !important;
+	margin-top: 10px;
+}
+
+
+/*makes images fill container */
+.partnersImages {
+	height: 100%;
+	width: 100%;
+	
+}
+
+/*big teal box */
+#partnersContainer {
+	width: 100%;
+	height: 350px;
+	margin-top: 0 !important;
+	clear: both;
+	background-color: #31909F;
+
+}
+
+/*partners title */
+#Partners {
+	color: white;
+	font-size: 35px;
+	font-family: Gabriola !important;
+	margin-left: 2%;
+	
+}
+
+/*contains each partner logo */
+#partnersInnerContainer {
+	width: 100%;
+	height: auto;
+	/*text-align: center; */
+	margin: 0 auto;
+	margin-top: 0;
+
+	
+}
+
+
+
+#Meltzer {
+	
+	border: solid blue;
+	width: 150px;
+	height: 45px;
+
+	
+	margin-top: 60px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	
+}
+
+
+
+#StrongStart {
+	
+	width: 150px;
+	height: 120px;
+	margin-top: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+
+#OSSE {
+	width: 160px;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+
+	margin-right: 20px;
+}
+
+#Bainum {
+	display: inline-block;
+	vertical-align: top;
+	
+	height: 165px;
+	width: 165px;
+	-moz-border-radius: 82.5px;
+	-webkit-border-radius: 82.5px;
+	border-radius: 82.5px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+
+#WholeFoods {
+	display: inline-block;
+	vertical-align: top;	
+	height: 160px;
+	width: 160px;
+	margin-top: 10px;
+}
+
+
+
+
+#bottomAreaContainer {
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding: 0.1px;
+	
+	margin-bottom: 50px;
+	
+font-family: Gabriola !important;
+	margin: 0 auto;
+	
+}
+
+#InnerBottomContainer {
+	
+	width: 60%;
+	height: auto; 
+	margin: 0 auto;
+
+}
+
+
+
+/*Contains NCC and Guide Logo */
+#nccGuideContainer {
+  display: inline-block;
+
+  width: 30%;
+  margin-left: 3%;
+
+
+
+ 
+}
+
+#nccLogo {
+	height: 200px;
+	width: 100%;
+	
+	margin-top: 50px;
+}
+
+#GuideStar {
+	height: 100px;
+	width: 50%;
+	margin: 0 auto;
+
+	 
+}
+
+
+/*contains bottom nav menu that says "About Us"*/
+#bottom_menu_container {
+	height: 200px;
+
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 50px;
+	text-align: center;
+	list-style: none;
+	color: black;
+	width: 30%;
+	margin-right: 10%;
+	
+}
+
+
+.BottomTitle {
+	font-size: 2.1vw;
+	text-align: center;
+	margin-top: 0 !important;
+	color: #940A0E;
+}
+
+/*bottom menu links */
+.bottom_menu li{
+	list-style: none;
+}
+.bottom_menu li a{
+	color:  #31909F;
+	list-style: none !important;
+	font-size: 1.5vw !important;
+}
+
+.bottom_menu li a:hover{ 
+	color: #FEF006 !important;
+}
+
+
+.social_container {
+	height: auto;
+	
+	width: 20%;
+	
+	text-align: left !important;
+	display: inline-block;
+	margin-top: 50px;
+	vertical-align: top;
+	color: black;
+	list-style: none;
+}
+
+.social_container .widgettitle{
+	display: none;
+}
+
+
+.social_container li a{ 
+	color:  #31909F !important;
+	font-size: 1.5vw;
+}
+
+
+.social_container li a:hover{
+	color: #FFF001 !important;
+
+}	
+
+#footerBar {
+	width: 100%;
+	height: 200px;
+	background-color: #930E10;
+	clear: both;
+
+	border: 1px;
+}
+
+
+#footerCopy {
+	margin-left: 100px;
+	color: white;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+.show-labels {
+	color: white !important;
+}
+
+
+
+.footer-inside a {
+	color: #FEF003 !important;
+}
+
+#footer-bottom {
+	display: none !important;
+}
+
+.Sponsor {
+	width: 10%;
+	display: inline-block;
+	
+	margin-left: 3.5%;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+
+#lastSponsor {
+	margin-right: 0;
+}
+
+
+.hesperiden.tparrows:hover {
+	background-color: #00919D !important;
+}
+
+/*Toggle bar */
+#nav-toggle {
+	color: #00919D !important;
+
+}
+
+#nav-toggle:hover {
+	color: #FEF001 !important;
+}
+
+nav#mobile-menu a span {
+	color: black !important;
+	line-height: 1 !important;
+	
+	font-size: 20px !important;
+	
+}
+
+nav#mobile-menu .dropdown-toggle {
+
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	
+
+}
+
+
+nav#mobile-menu .dropdown-toggle:hover {
+	color: yellow !important;
+	
+}
+
+#mobile-menu > div {
+	width: 90% !important;
+	max-width: 90% !important;
+}
+
+nav#mobile-menu a span:hover {
+	color: #00919D !important;
+}
+
+nav#mobile-menu ul li {
+	width: 100%;
+}
+
+
+
+
+#mobile-menu {
+	border: solid black;
+	padding: 0 !important;
+}
+
+/*line above top links */
+#access > div > ul > li > a > span::before,
+#site-title::before {
+	background-color: #FEF001 !important;
+}
+
+.dropdown-toggle {
+	color: #00919D !important;
+}
+
+.dropdown-toggle:hover {
+ color: yellow;
+
+}
+
+.sub-menu a > span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+.searchform input[type="search"] {
+	display: none !important;
+}

@@ -1,0 +1,294 @@
+/*
+Theme Name: SinglePageStyle
+Template: kahuna
+*/
+
+
+/*Left side, contains text */
+ .single #container{
+
+	float: left !important;
+	width: 70% !important;
+	margin-left: 0 !important;
+	
+	
+	
+}
+
+
+ .single #main{
+	padding-right: 0 !important; 
+	 
+ }
+
+
+
+/*single post image */
+.single .attachment-full {
+	
+	width: 80%;
+	margin: 0 auto !important;
+	display: block;
+
+}
+
+.single.kahuna-header-titles header > .entry-title
+{
+	
+	display: block !important;
+	
+}
+
+/*Single post entry title */
+.single .entry-title {
+	
+	
+	font-size: 2.3vw;
+	width: 80%;
+	margin: 0 auto !important;
+	
+}
+
+/*meta data single post */
+.single .entry-meta {
+	width: 80%;
+	margin: 0 auto !important;
+}
+
+
+.single .jp-relatedposts-post-title a{
+	font-size: 2vw !important;
+	color: #01909E !important;
+}
+
+
+
+.single #breadcrumbs-container {
+	border: solid green;
+	
+}
+
+
+.single #header-page-title-inside img {
+	
+	display: none !important;
+}
+
+
+.single #header-image-main-inside {
+	display: none !important;
+}
+
+/*
+.single h3 {
+		font-size: 2vw !important;
+		color: blue !important;
+	}
+	*/
+
+/* Sidebar only on single page */
+.single #sidebarContainer {
+
+		margin-left: 0 !important;
+	
+	}
+	
+	
+
+
+	/*Entry content */
+.single .entry-content {
+	width: 80% !important;
+	margin: 0 auto !important;
+	
+}
+
+/*For related and share this text */
+.single h3 {
+	font-size: 1.5vw !important;;
+}
+
+.single #nav-fixed:hover {
+	color: #00919E !important;
+}
+
+.single #nav-fixed {
+	
+	color: #00919E !important;
+}
+
+
+/*arrow for next post, previous post */
+.icon-continue-reading:hover {
+	color: #00919E !important;
+	border: solid black;
+}
+
+
+
+
+.nav-next a:hover, .nav-previous a:hover {
+	background-color: #00919E !important;
+
+}
+
+.jp-relatedposts-post-a:hover {
+	color: yellow !important;
+}
+@media only screen and (max-width: 1100px) {
+	
+
+/*Related posts title */
+.single .jp-relatedposts-post-title a{
+	font-size: 19px !important;
+	
+}
+
+/*Related posts date */
+.single .jp-relatedposts-post-date {
+	font-size: 18px !important;
+}
+
+/*For related and share this text */
+.single h3 {
+	font-size: 18px !important;;
+}
+
+/*meta info of post */
+.single .entry-meta {
+	/*
+	margin-left: 0 !important;
+	margin-bottom: 0 !important;
+	border: solid green;
+	*/
+	
+}
+
+
+.single .entry-content {
+	width: 100%;
+}
+	
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+/*single post image */
+.single .attachment-full {
+	/*
+	width: 100%;
+	*/
+}
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+	/*Left side, contains text */
+ .single #container {
+
+	float: left !important;
+	width: 100% !important;
+	margin-left: 0 !important;
+		
+}
+
+/*Single post entry title */
+.single .entry-title {
+	font-size: 20px;
+	
+}
+
+.single #rightBox {
+	height: auto !important;
+	clear: both;
+	margin: 0 auto !important;
+	float: none !important;
+	width: 50% !important;
+}
+
+
+
+
+.single #sidebarContainer {
+	height: auto !important;
+	width: 100%;
+}
+
+
+.single .pageSupportMatters {
+	width: 80%;
+}
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	/*single post image */
+	.single .attachment-full {
+		width: 100%;
+		
+		
+	}
+	
+	
+	.single .entry-meta {
+		width: 100% !important;
+	}
+	
+	.single .entry-content {
+		width: 100% !important;
+		
+	}
+	
+	
+	
+	/*Single post entry title */
+.single .entry-title {
+	width: 100%;
+}
+
+
+
+/*right box, contains support matters stuff */
+.single #rightBox {
+	
+	width: 70% !important;
+	
+}
+
+.single #sidebarContainer {
+	width: 100% !important;
+}
+
+
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 400px) {
+	/*single post image */
+	.single .attachment-full {
+		height: 200px;
+			
+	}
+	
+}
+
+@media only screen and (max-width: 320px) {
+	
+	
+	
+	
+}
+
